@@ -14,7 +14,7 @@ The purpose of this project is to storing and viewing currency exchange rates.
 
 ### To run the application:
 
-1. Run the as a Spring Boot Application, the way you prefer.
+1. Run as a Spring Boot Application, the way you prefer.
 3. The server is configured to **localhost** by defaul at **8080** (**http://localhost:8080**)
 
 ### To use the endpoints of the application:
