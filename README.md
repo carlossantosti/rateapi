@@ -34,4 +34,6 @@ In the **application.properties** we have some properties in other to customize 
 
 
 **com.luxoft.hsbc.LAST_MONTHS_IN_DAYS** - The days that will be storage in the database (30 days = 1 month), due the changes in the api we cannot get a range of date in the API for free, so instead to get the last two months by sending start date and end date, we start today and search the data in each day by deductingone day each day, doing a lot of requests to the api (what is not good, but for free it is okay), for example, if we request one month, it will make 30 requests to the api, so the problem is that the api is limited for the free plan as well, so be careful when configuring this parameter, I used at maximum 10 days of storage in order to do not run out of requests.
+
+
 PS.: If it happens to you, you will have to create an new account on the api and generate a new API_KEY, then change in the variable mentioned above and it will be working again, otherwise we will have to pay for the api.
