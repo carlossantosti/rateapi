@@ -11,6 +11,7 @@ The purpose of this project is to storing and viewing currency exchange rates.
 1. Developed with Java -version 17
 2. Spring Boot -version 2.5.5
 3. Spring Data JPA -version 2.5.5
+4. The application was developed using "Package by Feature"
 
 ### To run the application:
 
